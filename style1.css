@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.214);
+    background-repeat: repeat-x;
+}
+.containera{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    position: relative;
+    padding-left: 100px;
+}
+.container2{
+    color: rgb(0, 181, 181);
+}
+.tri{
+    color: rgb(0, 157, 157);
+    position: relative;
+    text-align: center;
+    left: 70px;
+    top: 10px
+}
+.one{
+    color: rgb(0, 159, 159);
+    font-size: 25px;
+    padding-left: 200px;
+    
+}
+.one1{
+    color: black;
+    font-size: 20px;
+}
+.container3{
+    position: absolute;
+    top: 70px;
+    right: 700px;
+}
+/* .container31{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+} */
+.bac{
+    left: 200px;
+}
+.one2{
+    position: relative;
+    padding-left: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
+    
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    color: grey;
+}
+.child{
+    /* display: flex; */
+    height: 250px;
+    width: 300px;
+   background-color: rgb(255, 255, 255);
+   border: 0;
+   border-radius: 10px;
+   position: absolute;
+   top: 120px;
+   left: 400px;
+   padding: 20px;
+}
+.child12{
+    text-decoration: line-through;
+    position: relative;
+    left: 25px;
+    top: -5px;
+    color: grey;
+}
+.child13{
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+    top: -5px;
+}
+.item{
+    height: 250px;
+    width: 350px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.item1{
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+}
+.item2{
+    padding-left: 150px;
+}
+.para1{
+    color: gray;
+    padding: 5px;
+    border: 1px solid black;
+}
+.btn{
+    color: aliceblue;
+    background-color: rgb(0, 143, 176);
+    padding: 5px;
+    border: none;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    padding-left: 10px;
+}
+.container{
+    filter: blur(7px);
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.29);
+    background-repeat: repeat-x;
+}
+.containera{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    position: relative;
+    padding-left: 100px;
+}
+.container2{
+    color: rgb(0, 181, 181);
+}
+.one{
+    color: rgb(0, 159, 159);
+    font-size: 25px;
+}
+.one1{
+    color: black;
+    font-size: 20px;
+}
+.container3{
+    position: absolute;
+    top: 70px;
+    right: 300px;
+}
+.child{
+    /* display: flex; */
+    height: 250px;
+    width: 300px;
+   background-color: aliceblue;
+   border: 0;
+   border-radius: 10px;
+   position: absolute;
+   top: 120px;
+   left: 100px;
+   padding: 20px;
+
+}
+.gone{
+    color: rgb(0, 157, 157);
+    position: relative;
+    text-align: center;
+    left: 70px;
+    top: 10px
+}
+.one2{
+    position: relative;
+    padding-left: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+    user-select: none;
+    cursor: pointer;
+    
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    color: grey;
+}
+.child12{
+    text-decoration: line-through;
+    position: relative;
+    left: 25px;
+    top: -5px;
+    color: grey;
+}
+.child13{
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+    top: -5px;
+}
+/* .parent */
+/* {
+    display: flex;
+
+} */
+.childa{
+        /* display: flex; */
+        height: 250px;
+        width: 300px;
+       background-color: aliceblue;
+       border: 0;
+       border-radius: 10px;
+       position: absolute;
+       top: 120px;
+       left: 550px;
+       padding: 20px;
+}
+.childb{
+    height: 250px;
+    width: 300px;
+   background-color: aliceblue;
+   border: 0;
+   border-radius: 10px;
+   position: absolute;
+   top: 120px;
+   left: 950px;
+   padding: 20px;
+}
+.childc{
+    height: 250px;
+    width: 300px;
+   background-color: aliceblue;
+   border: 0;
+   border-radius: 10px;
+   position: absolute;
+   top: 420px;
+   left: 100px;
+   padding: 20px;
+}
+.gone1{
+    color: rgb(0, 157, 157);
+    position: relative;
+    /* text-align: center; */
+    left: 20px;
+    top: 10px
+}
+.childd{
+    height: 250px;
+    width: 300px;
+   background-color: aliceblue;
+   border: 0;
+   border-radius: 10px;
+   position: absolute;
+   top: 420px;
+   left: 550px;
+   padding: 20px;
+}
